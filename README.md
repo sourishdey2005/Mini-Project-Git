@@ -103,7 +103,15 @@ The multi‑year AQI trajectory (2020–2024) shows recurring peaks and troughs,
 
 
 <img width="438" height="429" alt="image" src="https://github.com/user-attachments/assets/c408d28e-bb80-4d3e-8707-80a2204a31fb" />
-Distribution & Peaks: Most pollutants exhibit a right-skewed distribution, where typical concentrations are moderate, but frequent extreme spikes occur, particularly for PM10 and PM2.5.Strong Correlations: A very high correlation between PM2.5 and PM10 ($r=0.91$) and moderate ties with NO2 and CO suggest shared sources like vehicle emissions and road dust.Seasonal Volatility: The monthly trend follows a sharp U-shaped curve, with air quality reaching hazardous peaks in November (AQI near 400) and improving significantly during the July–August monsoon.Multi-Year Trends: The time-series data confirms a repetitive annual cycle of severe winter pollution episodes, with AQI levels frequently hitting the maximum cap of 500 across all five years.
+The matrix highlights strong co‑movement among particulates and combustion pollutants, contrasted with weaker or independent behavior of secondary gases:
+
+PM2.5, PM10, CO, NO₂: All show strong positive correlations with AQI, confirming their role as the core drivers of air quality deterioration.
+
+NH₃: Moderately correlated with particulates and NO₂, reflecting its contribution from waste/agriculture mixing with traffic emissions.
+
+SO₂: Weak or near‑zero correlations with most pollutants, underscoring its distinct industrial origin and limited influence on AQI variability.
+
+O₃: Shows minimal or weak positive correlations, consistent with its photochemical independence—formed through sunlight‑driven reactions rather than direct emissions.
 
 
 <img width="528" height="504" alt="image" src="https://github.com/user-attachments/assets/2e9b9b06-3e84-470a-9788-6c4fed7ef156" />
@@ -123,29 +131,64 @@ Pollutant Variability: Histograms indicate a right-skewed distribution for all p
 
 
 <img width="1001" height="470" alt="image" src="https://github.com/user-attachments/assets/f100543f-4439-465e-9c12-f58315e6fcd3" />
-AQI Distribution: The air quality is predominantly poor, with 36% of days categorized as Moderate and 25.2% as Very Poor, while Good air quality accounts for a negligible 1.4% of the period.Particulate Correlation: There is an extremely high correlation between $PM_{2.5}$ and $PM_{10}$ ($r = 0.91$), indicating these pollutants originate from the same primary sources and are influenced by the same atmospheric conditions.Seasonal Trends: AQI follows a sharp U-shaped seasonal curve, peaking dangerously in November (mean AQI $\approx 400$) and reaching its lowest levels during the July–August monsoon washout.Source Indicators: Moderate correlations between $NO_2$, $CO$, and Particulate Matter ($r \approx 0.50$ to $0.66$) identify combustion (vehicles and biomass burning) as a consistent baseline contributor to local pollution.Particle Size Dynamics: The $PM_{2.5}/PM_{10}$ ratio frequently fluctuates between fine particle dominance (smoke/combustion) and coarse particle dominance (dust), with notable spikes in fine particles during winter months.Annual Cycles: Time-series data confirms a repetitive multi-year pattern where AQI levels frequently hit the 500 (Severe) maximum cap during the winter stagnation period each year.
+  
+The ratio line from 2020–2024 oscillates between fine particle dominance (smoke) and coarse particle dominance (dust) thresholds.
+
+Winter and post‑monsoon periods often cross into the fine particle zone, reflecting combustion sources like biomass burning, traffic, and stagnant atmospheric conditions.
+
+Summer and monsoon periods lean toward coarse particle dominance, consistent with dust resuspension and dilution by rainfall.
+
+The persistence of these shifts highlights a dual pollution regime: smoke‑driven fine particulates in colder months and dust‑driven coarse particulates in warmer seasons.
+
+This ratio is crucial because fine particles (PM2.5) penetrate deeper into the lungs and pose greater health risks, while coarse particles (PM10) are more linked to visibility and respiratory irritation. Tracking this balance provides a diagnostic lens for source attribution and health impact assessment.
 
 
 
 
 <img width="850" height="547" alt="image" src="https://github.com/user-attachments/assets/2a057147-defd-4552-a09d-8add2df2c4a7" />
 
-AQI Distribution & SeverityDominant Categories: Only 1.4% of days recorded "Good" air quality, while the majority fell into Moderate (36%) and Very Poor (25.2%) categories.Extreme Events: The time-series data shows a recurring annual cycle where AQI levels hit the 500 (Severe) cap during winter months (October–January).Skewed Pollutants: Histograms for $PM_{2.5}$, $PM_{10}$, and $NO_2$ show a heavy right-skew, indicating that while "typical" days exist, extreme pollution spikes are frequent and severe.Seasonal & Temporal TrendsU-Shaped Monthly Cycle: Air quality is at its worst in November (mean AQI $\approx 380$) and best during the monsoon washout of July–August (mean AQI $\approx 100$).Particle Ratios: The $PM_{2.5}/PM_{10}$ ratio highlights periods of fine particle dominance (smoke/combustion) primarily in winters, with coarse particle dominance (dust) occurring in drier summer months.Pollutant InteractionsParticulate Linkage: An extremely high correlation between $PM_{2.5}$ and $PM_{10}$ ($r=0.91$) confirms they are driven by the same atmospheric conditions and sources.Combustion Tracers: Moderate correlations between $NO_2$, $CO$, and particulates ($r \approx 0.50$–$0.66$) identify vehicular exhaust and biomass burning as consistent baseline contributors.Independent Gases: $SO_2$ and $O_3$ (Ozone) show negligible or negative correlations with other pollutants, suggesting they are driven by independent industrial processes or photochemical reactions rather than general traffic.
+  
+The weak downward slope in the trend line reflects the photochemical trade‑off between traffic/industrial NO₂ and secondary ozone.
+
+High NO₂ concentrations (vehicular/industrial emissions) tend to suppress O₃ formation locally, as NO₂ scavenges ozone in the atmosphere.
+
+Lower NO₂ levels allow sunlight‑driven reactions to generate more O₃, explaining the slight inverse relationship.
+
+The broad scatter indicates that while this mechanism exists, meteorology and seasonal sunlight intensity play a stronger role in shaping ozone variability.
+
+This plot underscores the complex chemistry of urban air pollution: reducing NO₂ emissions may not linearly reduce ozone, since O₃ is a secondary pollutant formed through atmospheric reactions.
 
 
 
 <img width="547" height="458" alt="image" src="https://github.com/user-attachments/assets/28249a87-c24c-496e-aeb4-95eb4c654576"/>
-Air Quality Categories: The pie chart reveals that only 1.4% of days experienced "Good" air quality. The majority of the period was dominated by Moderate (36%) and Very Poor (25.2%) conditions, with Severe days accounting for 9.4%.Temporal Extremes: The AQI time series and histogram show a persistent annual pattern where values frequently hit the 500 (Severe) cap during winter months.Pollutant Skewness: All pollutant histograms exhibit a heavy right-skew, indicating that while average concentrations exist, the region is prone to frequent, extreme pollution spikes.2. Seasonal and Source TrendsMonthly Cycle: The "Monthly AQI Trend" demonstrates a sharp U-shaped curve, with air quality at its cleanest in July and August (mean AQI $\approx$ 100) and at its most hazardous in November (mean AQI approaching 400).Particle Characterization: The $PM_{2.5}/PM_{10}$ ratio indicates frequent Fine Particle Dominance (ratios $> 0.6$) during winter, pointing to combustion/smoke sources, while summer months often lean toward Coarse Particle Dominance due to dust.Industrial vs. Traffic: Analysis by month suggests a significant shift in dominance, with industrial indicators peaking mid-year and traffic-related tracers remaining a steady baseline.3. Correlation and InterdependenceParticulate Linkage: There is a near-perfect correlation between $PM_{2.5}$ and $PM_{10}$ ($r=0.91$), identifying them as the primary drivers of the AQI.Combustion Tracers: $NO_2$ shows strong correlations with $NH_3$ ($r=0.66$) and $PM_{10}$ ($r=0.66$), confirming shared emission sources like vehicular exhaust and biomass burning.Independent Pollutants: $SO_2$ and $O_3$ (Ozone) show negligible or negative correlations with other pollutants. The scatter plot specifically highlights an inverse relationship between $NO_2$ and $O_3$, a classic characteristic of urban photochemical smog where $NO_x$ "titrates" or breaks down local ozone.
+The monthly dominance values highlight clear seasonal shifts in source contributions:
+
+May (month 5) peaks sharply (~1.6), indicating a period of industrial or traffic dominance, likely tied to pre‑monsoon dust resuspension combined with sustained vehicular activity.
+
+Winter months (Jan, Oct, Nov) show the lowest dominance values, reflecting more balanced or diluted contributions due to atmospheric stagnation and mixed sources.
+
+Other months oscillate moderately, suggesting alternating influence between traffic emissions and industrial activity depending on weather and seasonal practices.
+
+Overall, the chart underscores that source dominance is not constant but cyclical, with summer/pre‑monsoon periods amplifying traffic/industrial signals, while winter/post‑monsoon conditions dilute them into broader pollution mixes.
 
 
 
 <img width="584" height="455" alt="image" src="https://github.com/user-attachments/assets/a31de7c4-2abc-47e7-b2f5-5adce747dc5d" />
 
-The provided diagrams for Delhi - Punjabi Bagh (2020–2024) show that air quality is predominantly Moderate to Very Poor, characterized by extreme winter AQI spikes (near 500) and a strong 0.91 correlation between PM2.5 and PM10.
+  
+The curve peaks around 20 units, showing that most ammonia concentrations cluster at moderate levels. This reflects steady emissions from agriculture, waste, and localized urban sources. The long right‑tail indicates occasional spikes, likely tied to episodic events such as fertilizer application or waste mismanagement. Compared to other pollutants, NH₃’s distribution is narrower, suggesting a consistent background presence rather than highly volatile behavior.
+
+This makes ammonia a signature pollutant in Delhi’s chemical fingerprint, acting as a stabilizing but persistent contributor to particulate formation (via ammonium salts) and overall AQI stress.
 
 
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/b455ea36-714e-484a-89e4-686a38b1a03b" />
-AQI Distribution and SeverityCategory Dominance: The air quality is predominantly poor, with Moderate (36%) and Very Poor (25.2%) being the most frequent categories, while "Good" days account for a negligible 1.4%.Extreme Pollution Events: The time-series data shows a repetitive annual cycle where AQI levels frequently hit the 500 (Severe) cap during winter months.Pollutant Skewness: Histograms for $PM_{2.5}$, $PM_{10}$, and $NO_2$ all show a heavy right-skew, indicating that extreme pollution spikes are common occurrences rather than rare outliers.2. Seasonal and Source DynamicsMonthly AQI Cycle: Air quality follows a sharp U-shaped curve, peaking dangerously in November (mean AQI $\approx 380$) and reaching its lowest point during the monsoon in July–August.Particle Characterization: The $PM_{2.5}/PM_{10}$ ratio indicates periods of Fine Particle Dominance (smoke/combustion) during winter, while drier months often lean toward Coarse Particle Dominance.Industrial vs. Traffic: Analysis by month shows that industrial indicators peak mid-year (May), whereas traffic-related tracers remain a steady baseline throughout the year.3. Correlation and Chemical InteractionsParticulate Linkage: There is a near-perfect correlation between $PM_{2.5}$ and $PM_{10}$ ($r = 0.91$), identifying them as the primary joint drivers of Delhi's AQI.Combustion Tracers: Strong correlations between $NO_2$, $NH_3$ ($r = 0.66$), and $CO$ ($r = 0.50$) point toward shared emission sources such as vehicular exhaust and biomass burning.Secondary Pollutant Behavior: Scatter plots confirm an inverse relationship between $NO_2$ and Ozone ($O_3$), a hallmark of urban photochemical smog where nitrogen oxides actively break down ground-level ozone.
+ clear positive correlation shows that coarse particles (PM10) are a major driver of overall AQI.
+
+As PM10 concentrations rise, AQI values increase almost linearly, confirming that dust resuspension, construction activity, and traffic emissions strongly influence Delhi’s air quality.
+
+The scatter spread suggests that while PM10 is a dominant contributor, other pollutants (PM2.5, NO₂, NH₃) also modulate AQI during certain episodes, adding variability around the trend line.
+
+This reinforces that particulate control is central to AQI management, with PM10 acting as a visible and measurable proxy for pollution severity.
 
 
 <img width="552" height="455" alt="image" src="https://github.com/user-attachments/assets/4d139451-5961-4fd4-9b7b-5fe5637b6eaa" />
