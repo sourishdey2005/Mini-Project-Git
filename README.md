@@ -82,13 +82,24 @@ The "Monthly AQI Trend" line graph illustrates a distinct "U-shaped" seasonal pa
 
 
 <img width="990" height="789" alt="image" src="https://github.com/user-attachments/assets/7e0202b2-44e7-48b0-b5c2-9593a0175f21" />
-Pollutant Distribution and ExtremesThe histograms indicate that most pollutants in Delhi follow a right-skewed distribution, meaning while lower concentrations are more frequent, severe pollution events are common. Particulate matter levels are particularly extreme, with $PM_{10}$ concentrations peaking between $100$ and $200$ µg/m³ but frequently extending toward $800$ µg/m³. Similarly, $PM_{2.5}$ shows significant density in the $50$–$100$ µg/m³ range with long tails reaching over $400$ µg/m³. In contrast, $SO_2$ levels remain consistently low and stable, generally staying below $20$ µg/m³.Pollutant InterdependenceThe correlation heatmap reveals a very strong relationship between $PM_{2.5}$ and $PM_{10}$ ($r = 0.91$), indicating they likely originate from the same sources, such as combustion and road dust. Moderate-to-strong correlations are also observed between $NO_2$, $NH_3$, and $CO$ (ranging from $0.41$ to $0.66$), which points toward shared emission drivers like vehicular exhaust and biomass burning. Conversely, Ozone ($O_3$) and $SO_2$ show negligible or negative correlations with other pollutants, suggesting their levels are influenced by independent chemical reactions or specific industrial sources rather than general urban traffic patterns.Seasonal AQI TrendsThe line graph of monthly AQI trends illustrates a distinct seasonal cycle, with air quality reaching its worst levels in November, where the mean AQI spikes near $400$. A secondary, smaller peak is visible around April and May. Conversely, the cleanest air is recorded during the monsoon months of July and August, when AQI levels drop to their annual minimum of approximately $100$, likely due to the "washout" effect of rainfall on atmospheric pollutants.
+The histograms highlight distinct distributional behaviors across pollutants:
 
+PM2.5 & PM10: Strong right‑skew, with most values clustered at lower ranges but occasional surges into hazardous territory.
+
+NO₂ & NH₃: Clear peaks around moderate levels (30 for NO₂, 20 for NH₃), reflecting consistent vehicular and waste/agricultural emissions.
+
+SO₂ & CO: Highly concentrated at very low values (SO₂ <20, CO <2), showing limited industrial coal combustion but persistent urban CO.
+
+O₃: Peaks around 20–30, with episodic rises linked to photochemical activity in summer sunlight.
+
+AQI: Multimodal, with peaks near 100, 200, and 500, capturing the seasonal cycle of moderate, poor, and hazardous episodes.
+
+Together, these distributions confirm that Delhi’s air quality is shaped by frequent low‑to‑moderate pollutant levels punctuated by rare but severe spikes, especially for particulates and AQI extremes.
 
 
 <img width="986" height="547" alt="image" src="https://github.com/user-attachments/assets/e6b9fd35-eaa1-43a1-aba5-66560985b574" />
 
-The following points summarize the air quality data for Delhi - Punjabi Bagh (2020–2024):Distribution & Peaks: Most pollutants exhibit a right-skewed distribution, where typical concentrations are moderate, but frequent extreme spikes occur, particularly for $PM_{10}$ and $PM_{2.5}$.Strong Correlations: A very high correlation between $PM_{2.5}$ and $PM_{10}$ ($r=0.91$) and moderate ties with $NO_2$ and $CO$ suggest shared sources like vehicle emissions and road dust.Seasonal Volatility: The monthly trend follows a sharp U-shaped curve, with air quality reaching hazardous peaks in November (AQI near 400) and improving significantly during the July–August monsoon.Multi-Year Trends: The time-series data confirms a repetitive annual cycle of severe winter pollution episodes, with AQI levels frequently hitting the maximum cap of 500 across all five years.
+The multi‑year AQI trajectory (2020–2024) shows recurring peaks and troughs, confirming strong seasonal periodicity. Winter months consistently produce sharp spikes, often breaching hazardous thresholds, while monsoon periods drive troughs with cleaner air. The persistence of this cycle across years highlights that structural drivers (meteorology, emissions, crop burning) outweigh short‑term interventions. Despite fluctuations, there’s no clear downward trend, suggesting that policy measures have yet to achieve sustained improvement. This time series reinforces the need for long‑term, systemic interventions rather than seasonal firefighting.
 
 
 <img width="438" height="429" alt="image" src="https://github.com/user-attachments/assets/c408d28e-bb80-4d3e-8707-80a2204a31fb" />
