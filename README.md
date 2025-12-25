@@ -103,6 +103,7 @@ The multi‑year AQI trajectory (2020–2024) shows recurring peaks and troughs,
 
 
 <img width="438" height="429" alt="image" src="https://github.com/user-attachments/assets/c408d28e-bb80-4d3e-8707-80a2204a31fb" />
+
 The matrix highlights strong co‑movement among particulates and combustion pollutants, contrasted with weaker or independent behavior of secondary gases:
 
 PM2.5, PM10, CO, NO₂: All show strong positive correlations with AQI, confirming their role as the core drivers of air quality deterioration.
@@ -115,6 +116,7 @@ O₃: Shows minimal or weak positive correlations, consistent with its photochem
 
 
 <img width="528" height="504" alt="image" src="https://github.com/user-attachments/assets/2e9b9b06-3e84-470a-9788-6c4fed7ef156" />
+
 AQI Category Prevalence: A majority of the days fall under the Moderate (36%) and Very Poor (25.2%) categories, while only 1.4% of the recorded period experienced Good air quality.
 
 Particulate Dominance: PM2.5 and PM10 show a nearly perfect correlation (r = 0.91), identifying them as the primary drivers of AQI and indicating shared emission sources like road dust and combustion.
