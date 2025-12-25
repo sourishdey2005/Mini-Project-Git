@@ -1,11 +1,38 @@
 <img width="1600" height="618" alt="image" src="https://github.com/user-attachments/assets/507ef7e5-3ff6-4903-90e0-d141ef14fec7" />
-1. Particulate Matter Distribution ($PM_{2.5}$ and $PM_{10}$)Observation: Both graphs show a heavy right-skewed distribution (long tails to the right).Interpretation: While the most frequent (modal) concentrations for $PM_{2.5}$ are around $50$–$100$ µg/m³, there are significant "outlier" events extending beyond $400$ µg/m³.Research Insight: This indicates that while "moderate" days exist, Punjabi Bagh frequently experiences extreme pollution episodes, likely corresponding to winter smog and stubble burning periods.2. Nitrogen Dioxide ($NO_2$) and Ammonia ($NH_3$)$NO_2$ Trends: The peak frequency is centered around $25$–$50$ µg/m³. The distribution is tighter than PM, suggesting that vehicular and industrial emissions (the primary sources of $NO_2$) are more consistent throughout the year compared to the episodic nature of dust or biomass burning.$NH_3$ Trends: Displays a bimodal or broad-peaked distribution around $10$–$30$ µg/m³.Research Insight: The presence of $NH_3$ in Delhi is often linked to waste decomposition and fertilizers from neighboring agricultural zones. The spread suggests a steady background level of ammonia.3. Sulphur Dioxide ($SO_2$)Observation: This graph has the sharpest, most concentrated peak at very low levels (mostly below $20$ µg/m³).Interpretation: $SO_2$ levels in Delhi are generally well within safe limits. The rare spikes (the long thin tail reaching $100$+) likely represent specific industrial plumes or heavy-sulphur fuel burning incidents.4. Carbon Monoxide (CO)Note: As per your dataset description, this is the only pollutant measured in mg/m³.Observation: The distribution is highly concentrated between $0.5$ and $1.5$ mg/m³.Research Insight: High CO levels are a classic indicator of incomplete combustion (traffic congestion and biomass fires). The fact that the tail extends to $6$ mg/m³ indicates localized "hotspots" of high traffic density or nearby waste burning.5. Ozone ($O_3$)Observation: A peak at low concentrations ($10$–$30$ µg/m³) with a very long tail extending toward $120$ µg/m³.Interpretation: Ground-level ozone is a secondary pollutant formed by the reaction of $NO_x$ and VOCs in sunlight. The tail represents peak summer afternoons when solar radiation is highest, leading to photochemical smog.
+All eight pollutant histograms show right‑skewed distributions, meaning lower concentrations are far more common, while extreme spikes occur less frequently but drive health risks.
+
+PM2.5 and PM10: Heavy tails, confirming that particulate matter occasionally surges to hazardous levels.
+
+NO₂ and CO: Moderate skew, reflecting vehicular emissions with occasional peaks during traffic congestion or stagnant weather.
+
+NH₃: Noticeable skew, pointing to localized agricultural and waste sources.
+
+SO₂: Relatively flat with fewer extremes, consistent with limited coal/industrial combustion in Delhi compared to particulates.
+
+O₃: Distribution shows episodic peaks, tied to photochemical activity in summer sunlight.
+
+Overall, the histograms highlight that Delhi’s pollution is dominated by frequent low‑to‑moderate concentrations punctuated by rare but severe spikes, especially for particulates.
 
 
 
 
 <img width="896" height="682" alt="image" src="https://github.com/user-attachments/assets/e3ab3397-d389-46ad-aa18-0c1d97c96103" />
- Distribution Analysis (Histograms & KDE)The histograms show the frequency of pollutant concentrations. A common theme across almost all pollutants in Delhi is right-skewness (positive skew), meaning that while lower concentrations are common, there are frequent extreme pollution "events."Particulate Matter ($PM_{2.5}$ & $PM_{10}$): These show the widest spread. $PM_{10}$ peaks around $100$–$200$ $\mu g/m^3$, but the tail extends toward $800$ $\mu g/m^3$. This indicates that Delhi's air quality is characterized by chronic high levels with severe episodic spikes (likely winter smog).Gaseous Pollutants ($NO_2$, $NH_3$, $SO_2$): These show tighter distributions. $SO_2$ is particularly low and stable (mostly under $20$ $\mu g/m^3$), suggesting that localized industrial sulfur emissions are not the primary driver of poor AQI in Punjabi Bagh.Carbon Monoxide (CO): Measured in $mg/m^3$, the peak is near $1.0$. The long tail indicates localized incomplete combustion, such as traffic congestion or waste burning.
+  
+The correlation matrix reveals two tightly coupled pollutant clusters and several weak or inverse relationships:
+
+Particulate–Combustion Cluster:
+
+PM2.5–PM10 (0.91) and PM2.5–NO₂ (0.64) show strong co‑variation, driven by shared vehicular and dust sources.
+
+CO also correlates moderately with PM2.5 (0.52) and NO₂ (0.5), reinforcing its role in urban combustion.
+
+NH₃–NO₂ (0.66) suggests agricultural and waste emissions often coincide with traffic pollution.
+
+SO₂ shows weak or negative correlations with most pollutants (e.g., –0.068 with PM2.5, –0.098 with NO₂), indicating its distinct industrial origin.
+
+O₃ remains largely uncorrelated or weakly positive, confirming its photochemical independence from primary pollutants.
+
+This matrix underscores that Delhi’s pollution is driven by a core set of co‑emitting sources, while secondary pollutants like SO₂ and O₃ operate on separate chemical and temporal pathways.
 
 <img width="850" height="470" alt="image" src="https://github.com/user-attachments/assets/95bdfdca-451b-4d18-91ea-5e58575742f7" />
 
