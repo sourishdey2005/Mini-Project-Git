@@ -1,3 +1,7 @@
+https://www.kaggle.com/datasets/rajanbhateja/indian-cities-aqi-2020-2024?select=chennai_combined.csv
+DATASET
+
+
 <img width="1600" height="618" alt="image" src="https://github.com/user-attachments/assets/507ef7e5-3ff6-4903-90e0-d141ef14fec7" />
 All eight pollutant histograms show right‑skewed distributions, meaning lower concentrations are far more common, while extreme spikes occur less frequently but drive health risks.
 
